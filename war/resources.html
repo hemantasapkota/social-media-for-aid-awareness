@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+	<title>Social Media for Aid Awareness</title>
+  <meta property="og:title" content="Social Media for Aid Awareness"/>
+  <meta property="og:type" content="non_profit"/>
+  <meta property="og:url" content="#"/>
+  <meta property="og:description" content="Generating foriegn aid awareness using social media."/>
+	<link rel="shortcut icon" href="/logo.png" type="image/png" />
+	<link rel="stylesheet" type="text/css" href="screen.css" media="screen" />
+
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+</head>
+<body>
+
+<div id="header">
+	<h1>Social Media for Aid Awareness</h1>
+	<h2>Investigating the potential of social media like facebook and twitter for generating aid awareness</h2>
+	<ul>
+		<li><a href="index.html">Home<span></span></a></li>
+		<li><a href="visualFeed.html">Visual Feeds<span></span></a></li>
+		<li><a href="resources.html" class="active">Resources<span></span></a></li>
+	</ul>
+	<p id="layoutdims">
+    <iframe allowtransparency="true" 
+            frameborder="0" 
+            scrolling="no"
+            src="http://platform.twitter.com/widgets/follow_button.html?screen_name=NepalAid"
+            style="width:200px; height:20px;"></iframe>
+  </p>
+</div>
+
+<div class="colmask leftmenu">
+	<div class="colleft">
+		<div class="col1">
+			<!-- Column 1 start -->
+      <h1>Resources</h1>
+      <ul>
+         <li><a href="http://www.google.com/publicdata/">Google Public Data Explorer</a></li>
+         <li><a href="http://code.google.com/apis/publicdata/">DSPL</a> bundle of sample data on projects funded by world bank in Nepal</li>
+             <a href="dspl_projects_world_bank_nepal.zip">[Download]</a>
+         <li><a href="http://www.google.com/publicdata/overview?ds=z3ikuqdjllkmqh_">Visualization for the above DSPL file</a></li>
+         <li><a href="presentation/ppt_Social_Media_For_Aid_Awareness.ppt">Presentation made at Aid Barcamp, Kathmandu on 4 Aug 2011 (PPT)</a> 
+             <a href="http://nepalaid.yipl.com.np/">More about it at here</a></li>
+         <li><a href="presentation/Social_Media_For_Aid_Awareness.odp">Presentation made at Aid Barcamp, Kathmandu on 4 Aug 2011 (ODP)</a></li>
+      </ul>
+ 			<!-- Column 1 end -->
+	</div>
+
+		<div class="col2">
+			<!-- Column 2 start -->
+      <div style="margin:1px;">
+        <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+          <script>
+              new TWTR.Widget({
+              version: 2,
+              type: 'search',
+              search: 'nepalaid',
+              interval: 6000,
+              title:'',
+              subject:'',
+              width: 240,
+              height: 200,
+              theme: {
+                shell: {
+                background: '#F4F4F4',
+                color: '#359'
+              },
+              tweets: {
+                background: '#ffffff',
+                color: '#000000',
+                links: '#360'
+              }
+            },
+            features: {
+            scrollbar: true,
+            loop: false,
+            live: true,
+            hashtags: true,
+            timestamp: true,
+            avatars: false,
+            behavior: 'all'
+            }
+          }).render().start();
+        </script>
+      </div>
+    	<!-- Column 2 end -->
+		</div>
+	</div>
+</div>
+
+<div id="footer">
+	<p>Template by <a href="http://matthewjamestaylor.com/blog/perfect-2-column-left-menu.htm">Matthew James Taylor</a></p>
+</div>
+
+</body>
+</html>

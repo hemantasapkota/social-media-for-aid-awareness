@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+	<title>Social Media for Aid Awareness</title>
+  <meta property="og:title" content="Social Media for Aid Awareness" />
+  <meta property="og:type" content="non_profit" />
+  <meta property="og:url" content="http://smat-demo.appspot.com/visualFeed.html" />
+  <meta property="og:description" content="Generating foriegn aid awareness using social media."/>
+  <meta property="og:image" content="http://smat-demo.appspot.com/logo.png" />
+  <meta property="og:site_name" content="http://smat-demo.appspot.com/" />
+  <!-- <meta property="fb:admins" content="1497054536" /> -->
+  <meta property="fb:app_id" content="136391509783212" />
+
+
+	<link rel="shortcut icon" href="/logo.png" type="image/png" />
+	<link rel="stylesheet" type="text/css" href="screen.css" media="screen" />
+
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+</head>
+<body>
+
+<div id="header">
+	<h1>Social Media for Aid Awareness</h1>
+	<h2>Investigating the potential of social media like facebook and twitter for generating aid awareness</h2>
+	<ul>
+		<li><a href="index.html">Home<span></span></a></li>
+		<li><a href="visualFeed.html" class="active">Visual Feeds<span></span></a></li>
+		<li><a href="resources.html">Resources<span></span></a></li>
+	</ul>
+	<p id="layoutdims">
+    <iframe allowtransparency="true" 
+            frameborder="0" 
+            scrolling="no"
+            src="http://platform.twitter.com/widgets/follow_button.html?screen_name=NepalAid"
+            style="width:200px; height:20px;"></iframe>
+  </p>
+</div>
+
+<div class="colmask leftmenu">
+	<div class="colleft">
+		<div class="col1">
+
+			<!-- Column 1 start -->
+
+      <!-- Feed 1 -->
+      <div>
+        <h2>Projects funded by World Bank - Snapshot1</h2>
+
+        <div class="chart-1">
+            <iframe width="400" height="325" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" src="http://www.google.com/publicdata/embed?ds=z3ikuqdjllkmqh_&amp;ctype=l&amp;strail=false&amp;nselm=h&amp;met_y=aid&amp;rdim=project&amp;ctype=l&amp;strail=false&amp;nselm=h&amp;met_y=aid&amp;scale_y=log&amp;ind_y=false&amp;rdim=project&amp;idim=project:Telecommunications+Project+(05):Project+for+Agriculture+Commercialization+and+Trade+(PACT):Poverty+Alleviation+Fund+II:Poverty+Alleviation+Fund+Project:NP+Power+Add+Financing:NP:+Road+Sector+Development+Project-AF:Irrigation+%26+Water+Resources+Management+Supplemental&amp;ifdim=project&amp;tstart=554840100000&amp;tend=1312222500000&amp;hl=en&amp;dl=en&amp;icfg&amp;uniSize=0.035&amp;iconSize=0.5"></iframe>
+       </div>
+
+      <div class="fb-like-comment">
+        <div id="fb-root"></div>
+        <script src="http://connect.facebook.net/en_US/all.js#appId=136391509783212&amp;xfbml=1"></script><fb:like href="http://smat-demo.appspot.com/visualFeed.html" send="false" width="450" show_faces="true" font=""></fb:like>
+       </div>
+
+        <div class="fb-comment">
+          <div id="fb-root"></div>
+            <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="http://smat-demo.appspot.com/" num_posts="2" width="500"></fb:comments>
+        </div>
+        <hr/>
+      </div>
+      <!-- End Feed 1 -->
+
+ 			<!-- Column 1 end -->
+	</div>
+
+		<div class="col2">
+			<!-- Column 2 start -->
+      <div style="margin:1px;">
+        <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+          <script>
+              new TWTR.Widget({
+              version: 2,
+              type: 'search',
+              search: 'nepalaid',
+              interval: 6000,
+              title:'',
+              subject:'',
+              width: 240,
+              height: 200,
+              theme: {
+                shell: {
+                background: '#F4F4F4',
+                color: '#359'
+              },
+              tweets: {
+                background: '#ffffff',
+                color: '#000000',
+                links: '#360'
+              }
+            },
+            features: {
+            scrollbar: true,
+            loop: false,
+            live: true,
+            hashtags: true,
+            timestamp: true,
+            avatars: false,
+            behavior: 'all'
+            }
+          }).render().start();
+        </script>
+      </div>
+    	<!-- Column 2 end -->
+		</div>
+	</div>
+</div>
+
+<div id="footer">
+	<p>Template by <a href="http://matthewjamestaylor.com/blog/perfect-2-column-left-menu.htm">Matthew James Taylor</a></p>
+</div>
+
+</body>
+</html>

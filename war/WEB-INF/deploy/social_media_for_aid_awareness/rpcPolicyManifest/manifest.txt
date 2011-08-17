@@ -1,0 +1,2 @@
+# Module social_media_for_aid_awareness
+# RPC service class, partial path of RPC policy file
